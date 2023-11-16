@@ -42,18 +42,12 @@ ollama create safety_expert -f Modelfile
 
 É recomendado usar um ambiente virtual para instalar e executar o chatbot. Siga os passos abaixo para configurar o ambiente:
 
-1. Clone o repositório:
-    ```bash
-    git clone [URL do seu repositório]
-    cd [Nome do seu repositório]
-    ```
-
-2. Crie um ambiente virtual:
+1. Crie um ambiente virtual:
     ```bash
     python3 -m venv venv
     ```
 
-3. Ative o ambiente virtual:
+2. Ative o ambiente virtual:
 
     - No Windows:
         ```bash
@@ -64,7 +58,7 @@ ollama create safety_expert -f Modelfile
         source venv/bin/activate
         ```
 
-4. Instale as dependências utilizando o arquivo `requirements.txt`:
+3. Instale as dependências utilizando o arquivo `requirements.txt`:
     ```bash
     pip install -r requirements.txt
     ```
